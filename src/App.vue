@@ -21,7 +21,7 @@ const activeYear = ref(albums[0].year)
       </v-col>
       <v-col xs="12" sm="10">
         <main>
-          <MainContent :title="activeYear" />
+          <MainContent :title="activeYear.toString()" />
         </main>
       </v-col>
     </v-row>
