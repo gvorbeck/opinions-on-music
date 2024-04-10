@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import SiteHeader from './components/SiteHeader.vue'
+import SiteFooter from './components/SiteFooter.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
 import MainContent from './components/MainContent.vue'
 import albums from './data/albums.json'
@@ -26,7 +27,9 @@ const activeYear = ref(albums[0].year)
       </v-col>
     </v-row>
     <v-row>
-      <v-col>footer here</v-col>
+      <v-col>
+        <SiteFooter />
+      </v-col>
     </v-row>
   </v-container>
 </template>
