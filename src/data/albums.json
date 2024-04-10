@@ -1,0 +1,46 @@
+[
+  {
+    "year": 2022,
+    "albums": [
+      {
+        "title": "You Can't Kill Me",
+        "artist": "070 Shake",
+        "genres": ["Aternative Hip Hop", "R&B"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/070+Shake/You+Can%27t+Kill+Me"
+        },
+        "favoriteTrack": "Medicine"
+      },
+      {
+        "title": "Rakshak",
+        "artist": "Bloodywood",
+        "genres": ["Metal", "Indian Folk", "Nu Metal"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Bloodywood/Rakshak"
+        },
+        "favoriteTrack": "Dana-Dan"
+      },
+      {
+        "title": "Return",
+        "artist": "deathcrash",
+        "genres": ["Post-Rock", "Shoegaze", "Indie Rock"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/deathcrash/Return"
+        },
+        "favoriteTrack": "What To Do"
+      },
+      {
+        "title": "Together",
+        "artist": "Duster",
+        "genres": ["Slowcore", "Indie Rock", "Lo-Fi"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Duster/Together"
+        },
+        "favoriteTrack": "Teeth"
+      }
+    ]
+  },
+  {
+    "year": 2021
+  }
+]
