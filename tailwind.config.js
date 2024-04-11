@@ -10,6 +10,9 @@ export default {
         sandyBrown: '#F4A261',
         burntSienna: '#E76F51',
         slateGray: '#758CA1'
+      },
+      fontFamily: {
+        josefinSans: ['Josefin Sans', 'sans-serif']
       }
     }
   },

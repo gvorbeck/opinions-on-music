@@ -1,5 +1,121 @@
 [
   {
+    "year": 2023,
+    "albums": [
+      {
+        "title": "SUSS",
+        "artist": "SUSS",
+        "genres": ["Ambient", "Country"],
+        "links": {},
+        "favoriteTrack": "Ash Fork, AZ"
+      },
+      {
+        "title": "Secret Life",
+        "artist": "Fred again.. & Brian Eno",
+        "genres": ["Ambient", "Electronic", "Experimental", "R&B"],
+        "links": {},
+        "favoriteTrack": "Enough"
+      },
+      {
+        "title": "Nothing for Me, Please",
+        "artist": "Dean Johnson",
+        "genres": ["Country"],
+        "links": {},
+        "favoriteTrack": "Acting School"
+      },
+      {
+        "title": "Travel",
+        "artist": "The Necks",
+        "genres": ["Jazz", "Ambient", "Experimental", "Avant-Garde"],
+        "links": {},
+        "favoriteTrack": "Signal"
+      },
+      {
+        "title": "PetroDraconic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
+        "artist": "King Gizzard & The Lizard Wizard",
+        "links": {},
+        "favoriteTrack": "Supercell"
+      },
+      {
+        "title": "'Till the Wheels Fall Off",
+        "artist": "WSTR",
+        "genres": ["Pop Punk", "Punk Rock"],
+        "links": {},
+        "favoriteTrack": "JOBBO"
+      },
+      {
+        "title": "Heaven Is a Junkyard",
+        "artist": "Youth Lagoon",
+        "genres": ["Dream Pop", "Indie Pop", "Psychedelic Pop"],
+        "links": {},
+        "favoriteTrack": "Prizefighter"
+      },
+      {
+        "title": "The Dark",
+        "artist": "Iagon",
+        "genres": ["Ambient", "Drone", "IDM", "Industrial", "Noise"],
+        "links": {},
+        "favoriteTrack": "Growth I"
+      },
+      {
+        "title": "Antarctica",
+        "artist": "waveform*",
+        "genres": ["Bedroom Pop", "Dream Pop", "Indie Rock", "Lo-Fi"],
+        "links": {},
+        "favoriteTrack": "Firework"
+      },
+      {
+        "title": "Agriculture",
+        "artist": "Agriculture",
+        "genres": ["Black Metal", "Post-Metal", "Blackgaze"],
+        "links": {},
+        "favoriteTrack": "Look, Pt. 1"
+      },
+      {
+        "title": "Cave World (Deluxe)",
+        "artist": "Viagra Boys",
+        "genres": ["Post-Punk", "Punk Rock", "Dance Punk", "Cow Punk"],
+        "links": {},
+        "favoriteTrack": "Creepy Crawlers"
+      },
+      {
+        "title": "Games Of Power",
+        "artist": "Home Front",
+        "genres": ["Punk Rock", "New Wave", "Post-Punk"],
+        "links": {},
+        "favoriteTrack": "New Face Of Death"
+      },
+      {
+        "title": "Would You Miss It?",
+        "artist": "Koyo",
+        "genres": ["Punk Rock", "Pop Punk", "Emo"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "ENDLESS",
+        "artist": "Clowns",
+        "genres": ["Punk Rock", "Hardcore Punk"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "Endurance",
+        "artist": "Josiah and the Bonnevilles",
+        "genres": ["Country", "Folk"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "Mermaidens",
+        "artist": "Mermaidens",
+        "genres": ["Alternative", "Indie Rock", "Post-Punk"],
+        "links": {},
+        "favoriteTrack": "-"
+      }
+    ]
+  },
+  {
     "year": 2022,
     "albums": [
       {
@@ -42,5 +158,68 @@
   },
   {
     "year": 2021
+  },
+  {
+    "year": 2020
+  },
+  {
+    "year": 2019
+  },
+  {
+    "year": 2018
+  },
+  {
+    "year": 2017
+  },
+  {
+    "year": 2016
+  },
+  {
+    "year": 2015
+  },
+  {
+    "year": 2014
+  },
+  {
+    "year": 2013
+  },
+  {
+    "year": 2012
+  },
+  {
+    "year": 2011
+  },
+  {
+    "year": 2010
+  },
+  {
+    "year": 2009
+  },
+  {
+    "year": 2008
+  },
+  {
+    "year": 2007
+  },
+  {
+    "year": 2006
+  },
+  {
+    "year": 2005
+  },
+  {
+    "year": 2004
+  },
+  {
+    "year": 2003
+  },
+  {
+    "year": 2002
+  },
+  {
+    "year": 2001
+  },
+  {
+    "year": 2000
   }
 ]

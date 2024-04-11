@@ -7,6 +7,6 @@ export interface Album {
   title: string
   artist: string
   genres: string[]
-  links: Record<string, string>
+  links: Record<string, string | undefined>
   favoriteTrack: string
 }

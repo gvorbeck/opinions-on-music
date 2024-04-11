@@ -1,35 +1,36 @@
+<template>
+  <div class="flex flex-col gap-4 mx-4 py-4">
+    <div class="hidden-md-and-up"><SiteHeader /></div>
+    <div class="grid grid-cols-12 gap-4">
+      <aside class="col-span-full md:col-span-2">
+        <SidebarMenu :albums="albums" :activeYear="activeYear" @select-year="selectYear" />
+      </aside>
+      <main class="col-span-full md:col-span-10">
+        <MainContent :title="activeYear.toString()" :albums="activeYearAlbums" />
+      </main>
+    </div>
+    <div>
+      <SiteFooter />
+    </div>
+  </div>
+</template>
+
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import SiteHeader from './components/SiteHeader.vue'
 import SiteFooter from './components/SiteFooter.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
 import MainContent from './components/MainContent.vue'
 import albums from './data/albums.json'
 
+// Data
 const activeYear = ref(albums[0].year)
-</script>
+const activeYearAlbums = computed(
+  () => albums.find((album) => album.year === activeYear.value)?.albums
+)
 
-<template>
-  <v-container>
-    <v-row>
-      <v-col>
-        <SiteHeader />
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col xs="12" sm="2">
-        <SidebarMenu :albums="albums" />
-      </v-col>
-      <v-col xs="12" sm="10">
-        <main>
-          <MainContent :title="activeYear.toString()" />
-        </main>
-      </v-col>
-    </v-row>
-    <v-row>
-      <v-col>
-        <SiteFooter />
-      </v-col>
-    </v-row>
-  </v-container>
-</template>
+// Methods
+function selectYear(year: number) {
+  activeYear.value = year
+}
+</script>
