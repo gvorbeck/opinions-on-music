@@ -2,10 +2,10 @@
   <div class="flex flex-col gap-4 mx-4 py-4">
     <div class="hidden-md-and-up"><SiteHeader /></div>
     <div class="grid grid-cols-12 gap-4">
-      <aside class="col-span-full md:col-span-2">
+      <aside class="col-span-full md:col-span-3 lg:col-span-2">
         <SidebarMenu :albums="albums" :activeYear="activeYear" @select-year="selectYear" />
       </aside>
-      <main class="col-span-full md:col-span-10">
+      <main class="col-span-full md:col-span-9 lg:col-span-10">
         <MainContent :title="activeYear.toString()" :albums="activeYearAlbums" />
       </main>
     </div>

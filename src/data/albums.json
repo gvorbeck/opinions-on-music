@@ -33,14 +33,17 @@
       {
         "title": "PetroDraconic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
         "artist": "King Gizzard & The Lizard Wizard",
+        "genres": ["Thash Metal", "Progressive Metal", "Psychedelic Rock"],
         "links": {},
         "favoriteTrack": "Supercell"
       },
       {
-        "title": "'Till the Wheels Fall Off",
+        "title": "'Til the Wheels Fall Off",
         "artist": "WSTR",
         "genres": ["Pop Punk", "Punk Rock"],
-        "links": {},
+        "links": {
+          "lastfm": "https://www.last.fm/music/WSTR/%27Til+the+Wheels+Fall+Off"
+        },
         "favoriteTrack": "JOBBO"
       },
       {
@@ -93,11 +96,11 @@
         "favoriteTrack": "-"
       },
       {
-        "title": "ENDLESS",
-        "artist": "Clowns",
-        "genres": ["Punk Rock", "Hardcore Punk"],
+        "title": "Fantasy",
+        "artist": "M83",
+        "genres": ["Synth-Pop", "Dream Pop", "Electronic"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": "Us And The Rest"
       },
       {
         "title": "Endurance",
@@ -112,6 +115,69 @@
         "genres": ["Alternative", "Indie Rock", "Post-Punk"],
         "links": {},
         "favoriteTrack": "-"
+      },
+      {
+        "title": "Spiritual Cramp",
+        "artist": "Spiritual Cramp",
+        "genres": ["Post-Punk", "Punk Rock"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "Mount Cope",
+        "artist": "Stoop Kid",
+        "genres": ["Alternative", "Dream Pop", "Indie Rock"],
+        "links": {},
+        "favoriteTrack": "This Is It, Right?"
+      },
+      {
+        "title": "Long Gradus",
+        "artist": "Sarah Davachi & Quatuor Bozzini",
+        "genres": ["Ambient", "Classical", "Drone"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "Never Going Under",
+        "artist": "Circa Waves",
+        "genres": ["Indie Rock", "Pop Rock", "Alternative"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "CUATRO",
+        "artist": "Husbands",
+        "genres": ["Indie Pop", "Surf Rock"],
+        "links": {},
+        "favoriteTrack": "Face Molt"
+      },
+      {
+        "title": "Remote Echoes",
+        "artist": "Duster",
+        "genres": ["Slowcore", "Indie Rock", "Lo-Fi"],
+        "links": {},
+        "favoriteTrack": "I Know I Wont"
+      },
+      {
+        "title": "No Joy",
+        "artist": "Spanish Love Songs",
+        "genres": ["Pop Punk", "Emo"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "Hardly the Same Snake",
+        "artist": "Skinny Pelembe",
+        "genres": ["Psychedelic", "Soul", "Jazz", "Hip Hop", "Experimental"],
+        "links": {},
+        "favoriteTrack": "-"
+      },
+      {
+        "title": "Golden State",
+        "artist": "Logan Ledger",
+        "genres": ["Country"],
+        "links": {},
+        "favoriteTrack": "There Goes My Mind"
       }
     ]
   },
