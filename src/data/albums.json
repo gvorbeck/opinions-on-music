@@ -31,7 +31,7 @@
         "favoriteTrack": "Signal"
       },
       {
-        "title": "PetroDraconic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
+        "title": "PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
         "artist": "King Gizzard & The Lizard Wizard",
         "genres": ["Thash Metal", "Progressive Metal", "Psychedelic Rock"],
         "links": {},
@@ -273,6 +273,7 @@
       {
         "title": "A Guidonian Hand",
         "artist": "Richard Skelton",
+        "genres": ["Ambient", "Drone", "Neo-Classical", "Experimental"],
         "links": {
           "lastfm": "https://www.last.fm/music/Richard+Skelton/A+Guidonian+Hand"
         }
@@ -280,6 +281,7 @@
       {
         "title": "Horseshit",
         "artist": "Symphony of Distraction",
+        "genres": ["Punk Rock"],
         "links": {
           "lastfm": "https://www.last.fm/music/Symphony+of+Distraction/Horseshit"
         }
@@ -287,6 +289,7 @@
       {
         "title": "Radiate Like This",
         "artist": "Warpaint",
+        "genres": ["Indie Rock", "Dream Pop", "Psychedelic Rock"],
         "links": {
           "lastfm": "https://www.last.fm/music/Warpaint/Radiate+Like+This"
         }

@@ -26,6 +26,14 @@
   @apply fill-persianGreen bg-charcoal w-10 p-2 rounded-full;
 }
 
+hr {
+  @apply border-charcoal;
+}
+
+p a {
+  @apply text-burntSienna bg-charcoal px-1 bg-opacity-40;
+}
+
 /* @import './base.css'; */
 
 /* #app {
