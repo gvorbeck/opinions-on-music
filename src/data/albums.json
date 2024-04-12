@@ -42,7 +42,9 @@
         "artist": "WSTR",
         "genres": ["Pop Punk", "Punk Rock"],
         "links": {
-          "lastfm": "https://www.last.fm/music/WSTR/%27Til+the+Wheels+Fall+Off"
+          "lastfm": "https://www.last.fm/music/WSTR/%27Til+the+Wheels+Fall+Off",
+          "spotify": "https://example.com",
+          "genius": "https://example.com"
         },
         "favoriteTrack": "JOBBO"
       },
@@ -93,7 +95,7 @@
         "artist": "Koyo",
         "genres": ["Punk Rock", "Pop Punk", "Emo"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Fantasy",
@@ -107,21 +109,21 @@
         "artist": "Josiah and the Bonnevilles",
         "genres": ["Country", "Folk"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Mermaidens",
         "artist": "Mermaidens",
         "genres": ["Alternative", "Indie Rock", "Post-Punk"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Spiritual Cramp",
         "artist": "Spiritual Cramp",
         "genres": ["Post-Punk", "Punk Rock"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Mount Cope",
@@ -135,14 +137,14 @@
         "artist": "Sarah Davachi & Quatuor Bozzini",
         "genres": ["Ambient", "Classical", "Drone"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Never Going Under",
         "artist": "Circa Waves",
         "genres": ["Indie Rock", "Pop Rock", "Alternative"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "CUATRO",
@@ -163,14 +165,14 @@
         "artist": "Spanish Love Songs",
         "genres": ["Pop Punk", "Emo"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Hardly the Same Snake",
         "artist": "Skinny Pelembe",
         "genres": ["Psychedelic", "Soul", "Jazz", "Hip Hop", "Experimental"],
         "links": {},
-        "favoriteTrack": "-"
+        "favoriteTrack": ""
       },
       {
         "title": "Golden State",
@@ -219,6 +221,75 @@
           "lastfm": "https://www.last.fm/music/Duster/Together"
         },
         "favoriteTrack": "Teeth"
+      },
+      {
+        "title": "Omit",
+        "artist": "Grivo",
+        "genres": ["Shoegaze", "Post-Punk", "Doom Metal"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Grivo/Omit"
+        }
+      },
+      {
+        "title": "Reggae Film Star",
+        "artist": "Damien Jurado",
+        "genres": ["Folk", "Indie Rock", "Singer-Songwriter"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Damien+Jurado/Reggae+Film+Star"
+        }
+      },
+      {
+        "title": "Sonancy",
+        "artist": "Loop",
+        "genres": ["Shoegaze", "Noise Rock", "Post-Punk"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Loop/Sonancy"
+        }
+      },
+      {
+        "title": "A Portrait of the Artist as a Middle-Aged Dude",
+        "artist": "Mr. Husband",
+        "genres": ["Surf Rock", "Indie Pop"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Mr.+Husband/A+Portrait+of+the+Artist+as+a+Middle-Aged+Dude"
+        }
+      },
+      {
+        "title": "Havasu",
+        "artist": "Pedro The Lion",
+        "genres": ["Indie Rock", "Emo", "Singer-Songwriter"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Pedro+the+Lion/Havasu"
+        }
+      },
+      {
+        "title": "11:11",
+        "artist": "Pinegrove",
+        "genres": ["Indie Rock", "Emo"],
+        "links": {
+          "lastfm": "https://www.last.fm/music/Pinegrove/11:11"
+        }
+      },
+      {
+        "title": "A Guidonian Hand",
+        "artist": "Richard Skelton",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Richard+Skelton/A+Guidonian+Hand"
+        }
+      },
+      {
+        "title": "Horseshit",
+        "artist": "Symphony of Distraction",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Symphony+of+Distraction/Horseshit"
+        }
+      },
+      {
+        "title": "Radiate Like This",
+        "artist": "Warpaint",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Warpaint/Radiate+Like+This"
+        }
       }
     ]
   },

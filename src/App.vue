@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4 mx-4 py-4">
+  <div class="flex flex-col gap-4 py-4 max-w-[1200px] mx-auto px-4">
     <div class="hidden-md-and-up"><SiteHeader /></div>
     <div class="grid grid-cols-12 gap-4">
       <aside class="col-span-full md:col-span-3 lg:col-span-2">
@@ -25,9 +25,10 @@ import albums from './data/albums.json'
 
 // Data
 const activeYear = ref(albums[0].year)
-const activeYearAlbums = computed(
-  () => albums.find((album) => album.year === activeYear.value)?.albums
-)
+const activeYearAlbums = computed(() => {
+  const yearData = albums.find((album) => album.year === activeYear.value)
+  return yearData?.albums || []
+})
 
 // Methods
 function selectYear(year: number) {

@@ -1,6 +1,6 @@
 <template>
   <aside class="bg-safron card bevel-border">
-    <ul class="flex md:flex-col gap-4 md:gap-6 overflow-scroll no-scrollbar">
+    <ul class="flex md:flex-col gap-4 md:gap-6 overflow-scroll no-scrollbar" v-if="props.albums">
       <li v-for="year in props.albums" :key="year.year">
         <button
           :class="

@@ -6,7 +6,12 @@ export interface YearList {
 export interface Album {
   title: string
   artist: string
-  genres: string[]
-  links: Record<string, string | undefined>
-  favoriteTrack: string
+  genres?: string[]
+  links?: {
+    lastfm?: string
+    spotify?: string
+    genius?: string
+    [key: string]: string | undefined
+  }
+  favoriteTrack?: string
 }
