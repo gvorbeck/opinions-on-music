@@ -1,12 +1,12 @@
 <template>
   <div class="md:flex gap-4">
     <div
-      class="aspect-square bg-charcoal bg-opacity-75 flex items-center rounded-md md:w-1/2 lg:w-1/3 overflow-hidden"
+      class="aspect-square bg-charcoal bg-opacity-25 flex items-center rounded-md md:w-1/2 lg:w-1/3 overflow-hidden"
     >
-      <img :src="albumCover" alt="Album cover" v-if="albumCover" />
+      <img :src="albumCover" alt="Album cover" class="mx-auto" v-if="albumCover" />
       <IconTape class="w-full h-auto fill-white opacity-50 mx-4" v-else />
     </div>
-    <div class="md:flex-1 lg:w-2/3 md:text-left lg:flex lg:flex-col lg:gap-2">
+    <div class="md:flex-1 lg:w-2/3 md:text-left lg:flex lg:flex-col lg:gap-4">
       <AlbumTitle :title="props.album.title" :artist="props.album.artist" />
       <AlbumLinks
         :links="props.album.links"
@@ -50,7 +50,6 @@ const albumCover = ref()
 // Watchers
 // Watch for changes in data
 watch(albumData, () => {
-  console.log(albumData?.value?.album)
   albumCover.value = albumData?.value?.album.image[4]['#text']
 })
 

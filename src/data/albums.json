@@ -297,7 +297,149 @@
     ]
   },
   {
-    "year": 2021
+    "year": 2021,
+    "albums": [
+      {
+        "title": "Baptize",
+        "artist": "Atreyu",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Atreyu/Baptize",
+          "wiki": "Baptize is the 8th studio album by American metal band Atreyu. It was released on June 4th, 2021 through Spinefarm Records. It is their first release after the departure of longtime vocalist Alex Varkatzas who exited the band in September 2020. Read more on Last.fm"
+        }
+      },
+      {
+        "title": "Beachy Head",
+        "artist": "Beachy Head",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Beachy+Head/Beachy+Head"
+        }
+      },
+      {
+        "title": "Cumulus Ruminations",
+        "artist": "Carinae",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/CARINAE/Cumulus+Ruminations"
+        }
+      },
+      {
+        "title": "Man's Best Friend",
+        "artist": "Cavetown",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Cavetown/Man%27s+Best+Friend"
+        }
+      },
+      {
+        "title": "Music City USA",
+        "artist": "Charley Crockett",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Charley+Crockett/Music+City+USA"
+        }
+      },
+      {
+        "title": "Heavy Male Insecurity",
+        "artist": "Death By Unga Bunga",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Death+by+Unga+Bunga/Heavy+Male+Insecurity",
+          "tags": "pop.punk"
+        }
+      },
+      {
+        "title": "Fuck Art",
+        "artist": "The Dirty Nil",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/The+Dirty+Nil/Fuck+Art",
+          "tags": "pop.punk"
+        }
+      },
+      {
+        "title": "Seeds",
+        "artist": "Domkraft",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Domkraft/Seeds"
+        }
+      },
+      {
+        "title": "III",
+        "artist": "Dusted",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Dusted/III"
+        }
+      },
+      {
+        "title": "Pastel",
+        "artist": "FRITZ",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Fritz/Pastel",
+          "wiki": "Read more on Last.fm"
+        }
+      },
+      {
+        "title": "The Battle at Garden's Gate",
+        "artist": "Greta Van Fleet",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Greta+Van+Fleet/The+Battle+at+Garden%27s+Gate"
+        }
+      },
+      {
+        "title": "Post People",
+        "artist": "Heave Blood & Die",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Heave+Blood+&+Die/Post+People"
+        }
+      },
+      {
+        "title": "Southern Lights",
+        "artist": "Holy Monitor",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Holy+Monitor/Southern+Lights"
+        }
+      },
+      {
+        "title": "Butterfly 3000",
+        "artist": "King Gizzard & The Lizard Wizard",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/King+Gizzard+&+The+Lizard+Wizard/Butterfly+3000"
+        }
+      },
+      {
+        "title": "When You Found Me",
+        "artist": "Lucero",
+        "genre": [],
+        "favoriteTrack": "",
+        "links": {
+          "lastfm": "https://www.last.fm/music/Lucero/When+You+Found+Me",
+          "wiki": "I Won't Care How You Remember Me is the sixth studio album by American rock band Tigers Jaw. The album was released on March 5, 2021 through Hopeless Records, their first with the label. Touring for their fifth studio album, Spin, wrapped up in mid-2018. Following the tour, both bassist/guitarist Colin Gorman and drummer Teddy Roberts were made official members of Tigers Jaw, having toured extensively with founding member Ben Walsh and keyboardist Brianna Collins in support of Spin. In early 2020, Tigers Jaw signed a record deal with Hopeless Records, and released a one-off single, 'Warn Me', on June Read more on Last.fm"
+        }
+      }
+    ]
   },
   {
     "year": 2020

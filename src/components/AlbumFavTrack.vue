@@ -1,7 +1,7 @@
 <template>
   <div class="flex gap-1 opacity-65">
     <span class="material-symbols-outlined" title="Favorite Track"> favorite </span>
-    <span>"{{ track }}"</span>
+    <span>"{{ props.track }}"</span>
   </div>
 </template>
 

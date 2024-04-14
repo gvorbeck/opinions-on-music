@@ -1,5 +1,5 @@
 <template>
-  <ul class="opacity-65 text-sm">
+  <ul class="opacity-65 text-sm italic font-light">
     <li v-for="genre in props.genres" :key="genre">{{ genre }}</li>
   </ul>
 </template>
