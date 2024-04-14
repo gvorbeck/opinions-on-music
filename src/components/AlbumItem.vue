@@ -32,7 +32,7 @@ import AlbumTitle from './AlbumTitle.vue'
 import AlbumLinks from './AlbumLinks.vue'
 import AlbumFavTrack from './AlbumFavTrack.vue'
 import resolveConfig from 'tailwindcss/resolveConfig'
-import tailwindConfig from '../../tailwind.config' // I don't know why this error is here.
+import tailwindConfig from '../../tailwind.config'
 import AlbumGenres from './AlbumGenres.vue'
 
 // Data
