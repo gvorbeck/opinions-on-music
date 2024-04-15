@@ -1,6 +1,7 @@
 export interface YearList {
   year: number
   albums?: Album[]
+  playlist?: string
 }
 
 export interface Album {

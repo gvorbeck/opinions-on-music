@@ -21,7 +21,7 @@
         <SidebarMenu :albums="albums" :activeYear="activeYear" @select-year="selectYear" />
       </aside>
       <main class="col-span-full md:col-span-9 lg:col-span-10">
-        <MainContent :title="activeYear.toString()" :albums="activeYearAlbums" />
+        <MainContent :albums="activeYearAlbums" :albumPlaylistLink="albumPlaylistLink" />
       </main>
     </div>
     <div>
@@ -31,7 +31,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onUnmounted, ref } from 'vue'
+import { computed, onUnmounted, ref, watch } from 'vue'
 import SiteHeader from './components/SiteHeader.vue'
 import SiteFooter from './components/SiteFooter.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
@@ -45,6 +45,18 @@ const activeYearAlbums = computed(() => {
   return yearData?.albums || []
 })
 const scrollY = ref(0)
+
+const albumPlaylistLink = ref(
+  albums.find((collection) => collection.year === activeYear.value)?.playlist
+)
+
+// Watchers
+// Watch activeYear for changes and update albumPlaylistLink
+watch(activeYear, () => {
+  albumPlaylistLink.value = albums.find(
+    (collection) => collection.year === activeYear.value
+  )?.playlist
+})
 
 // Methods
 // selectYear: update active year

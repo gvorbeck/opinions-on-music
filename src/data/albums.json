@@ -1,6 +1,7 @@
 [
   {
     "year": 2023,
+    "playlist": "https://open.spotify.com/playlist/31nsMn3SIOVnQ9NiOcylh7?si=8f7fc7842c2041a1",
     "albums": [
       {
         "title": "SUSS",
@@ -185,6 +186,7 @@
   },
   {
     "year": 2022,
+    "playlist": "https://open.spotify.com/playlist/6aJXro7nE6pYvBjRSKrMWh?si=5cf1808c02dd4d46",
     "albums": [
       {
         "title": "You Can't Kill Me",
@@ -298,6 +300,7 @@
   },
   {
     "year": 2021,
+    "playlist": "https://open.spotify.com/playlist/3R7ci1gjqBrIoDEfTtaCcs?si=84902df814fe4a2a",
     "albums": [
       {
         "title": "Baptize",
@@ -442,10 +445,12 @@
     ]
   },
   {
-    "year": 2020
+    "year": 2020,
+    "playlist": "https://open.spotify.com/playlist/5HFmDTQmTSmwEBzubFnP4H?si=8f693915717f4d4d"
   },
   {
-    "year": 2019
+    "year": 2019,
+    "playlist": "https://open.spotify.com/playlist/1IcVjw60lGqtQvtstM7RpV?si=b0a08968fec349a5"
   },
   {
     "year": 2018
