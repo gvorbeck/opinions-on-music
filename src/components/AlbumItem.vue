@@ -56,12 +56,12 @@ watch(albumData, () => {
 // Lifecycle
 // Dummy JSON API call
 onMounted(() => {
+  // Encode artist and album names
+  const encodedArtist = encodeURIComponent(props.album.artist)
+  const encodedAlbum = encodeURIComponent(props.album.title)
+
   fetch(
-    'https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=' +
-      props.album.artist +
-      '&album=' +
-      props.album.title +
-      '&format=json'
+    `https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=${encodedArtist}&album=${encodedAlbum}&format=json`
   )
     .then((response) => response.json())
     .then((json) => (albumData.value = json))
