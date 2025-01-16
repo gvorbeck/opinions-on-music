@@ -70,6 +70,7 @@ function scrollToTop() {
 
 // Event listeners
 window.addEventListener('scroll', () => {
+  console.log(scrollY.value)
   scrollY.value = window.scrollY
 })
 
