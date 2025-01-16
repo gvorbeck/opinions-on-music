@@ -56,7 +56,7 @@ watch(albumData, () => {
 // Lifecycle
 // Dummy JSON API call
 onMounted(() => {
-  // Encode artist and album names
+  // Encode artist and album names for non-Roman alphabets
   const encodedArtist = encodeURIComponent(props.album.artist)
   const encodedAlbum = encodeURIComponent(props.album.title)
 
@@ -65,7 +65,7 @@ onMounted(() => {
   )
     .then((response) => response.json())
     .then((json) => (albumData.value = json))
-    .catch((error) => console.error(error))
+    .catch((error) => console.error('Error fetching album info:', error))
 })
 
 onMounted(() => {
